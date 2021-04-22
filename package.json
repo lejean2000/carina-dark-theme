@@ -1,0 +1,27 @@
+{
+    "name": "carina-dark-theme",
+    "displayName": "Carina Dark Theme",
+    "description": "Dracula based dark theme, but more colorful.",
+	"icon": "images/carina.png",
+    "version": "0.2.4",
+	"publisher": "ivanpavlov",
+	"galleryBanner": {
+		"color": "#232323",
+		"theme": "dark"
+	  },
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Carina Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Carina Dark-color-theme.json"
+            }
+        ]
+    }
+}
