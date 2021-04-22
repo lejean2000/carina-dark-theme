@@ -1,5 +1,4 @@
 /.vscode
 /.vscodeignore
-/carina-dark-theme-0.2.1.vsix
-/carina-dark-theme-0.2.2.vsix
+*.vsix
 /vsc-extension-quickstart.md

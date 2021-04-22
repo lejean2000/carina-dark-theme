@@ -798,7 +798,7 @@
 			}
 		},
 		{
-			"scope": "source.scala entity.name.class",
+			"scope": "source.scala entity.name.class, source.scala entity.other.inherited-class.scala",
 			"settings": {
 				"foreground": "#8BE9FD",
 				"fontStyle": ""
