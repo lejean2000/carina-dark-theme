@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.3.0] - 2021-04-22
+Initial support for Java. License info.
+
 ## [0.2.4] - 2021-04-21
 Streamline CSS colors.
 
