@@ -654,11 +654,23 @@
 			}
 		},	
 		{
+			"scope": "variable.language.special.self.python",
+			"settings": {
+				"foreground": "#6EE3A9"
+			}
+		},		
+		{
 			"scope": "entity.name.function.python, support.function.builtin.python",
 			"settings": {
 				"foreground": "#6EE3A9"
 			}
 		},
+		{
+			"scope": "entity.name.function.declaration",
+			"settings": {
+				"foreground": "#6EE3A9"
+			}
+		},		
 		{
 			"scope": "meta.method.identifier.java, variable.language.this.java",
 			"settings": {
@@ -710,7 +722,7 @@
 			}
 		},		
 		{
-			"scope": "comment.line.number-sign.python, comment.block.css",
+			"scope": "comment.line.number-sign.python, comment.block.css, comment.line.double-slash.scala",
 			"settings": {
 				"foreground": "#747474",
 				"fontStyle": ""
@@ -770,6 +782,33 @@
 			"scope":"punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.tag.html",
 			"settings": {
 				"foreground": "#ff79c6"
+			}
+		},
+		{
+			"scope": "keyword.declaration.scala",
+			"settings": {
+				"foreground": "#D9534F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "variable.language.scala",
+			"settings": {
+				"foreground": "#6EE3A9"
+			}
+		},
+		{
+			"scope": "source.scala entity.name.class",
+			"settings": {
+				"foreground": "#8BE9FD",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "variable.other.declaration.scala",
+			"settings": {
+				"foreground": "#FFB86C",
+				"fontStyle": ""
 			}
 		}
 	]
