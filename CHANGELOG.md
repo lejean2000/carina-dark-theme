@@ -1,6 +1,8 @@
 # Change Log
+## [0.4.1] 
+Small CSS Fix.
 
-## [0.4.0] - 2021-04-23
+## [0.4.0] - 2021-04-27
 Initial support for Scala.
 
 ## [0.3.0] - 2021-04-22

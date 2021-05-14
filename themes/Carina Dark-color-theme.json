@@ -810,6 +810,12 @@
 				"foreground": "#FFB86C",
 				"fontStyle": ""
 			}
-		}
+		},
+		{
+			"scope": "meta.embedded.line.css",
+			"settings": {
+				"foreground": "#858585"
+			}
+		}		
 	]
 }
