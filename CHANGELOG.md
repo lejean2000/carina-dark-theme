@@ -1,4 +1,8 @@
 # Change Log
+## [0.5] 
+Initial Powershell support. New active editorIndentGuide color. Some sode cleanup.
+
+# Change Log
 ## [0.4.1] 
 Small CSS Fix.
 
