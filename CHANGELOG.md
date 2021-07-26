@@ -1,5 +1,8 @@
 # Change Log
-## [0.5] 
+## [0.5.1] 
+Streamline colors between languages. Again.
+
+## [0.5.0] 
 Initial Powershell support. New active editorIndentGuide color. Some sode cleanup.
 
 # Change Log
