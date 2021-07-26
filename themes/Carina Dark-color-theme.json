@@ -477,12 +477,19 @@
 			}
 		},
 		{
-			"scope": "storage.type",
+			"scope": "storage.type, punctuation.bracket.square.java, punctuation.definition.annotation.java, punctuation.bracket.angle.java",
 			"settings": {
 				"foreground": "#8BE9FD",
 				"fontStyle": "italic"
 			}
 		},
+		{
+			"scope": "storage.type.generic.java",
+			"settings": {
+				"foreground": "#65a7bb",
+				"fontStyle": "bold"
+			}
+		},		
 		{
 			"scope": "entity.name.class",
 			"settings": {
@@ -498,7 +505,7 @@
 			}
 		},
 		{
-			"scope": "variable.parameter",
+			"scope": "variable.parameter.function.language.python, variable.parameter.java, variable.parameter.scala",
 			"settings": {
 				"foreground": "#FFB86C",
 				"fontStyle": "italic"
@@ -517,19 +524,13 @@
 			}
 		},
 		{
-			"scope": "support.function",
-			"settings": {
-				"foreground": "#8BE9FD"
-			}
-		},
-		{
 			"scope": "support.constant",
 			"settings": {
 				"foreground": "#6BE5FD"
 			}
 		},
 		{
-			"scope": "support.type, support.class, support.other.variable",
+			"scope": "support.type, support.other.variable",
 			"settings": {
 				"foreground": "#66D9EF",
 				"fontStyle": " italic"
@@ -673,9 +674,9 @@
 			"settings": {
 				"foreground": "#6EE3A9"
 			}
-		},		
+		},
 		{
-			"scope": "entity.name.function.python, support.function.builtin.python, entity.name.function.js, entity.name.function.powershell",
+			"scope": "entity.name.function.python, meta.method.identifier.java, support.function.builtin.python, entity.name.function.js, entity.name.function.powershell",
 			"settings": {
 				"foreground": "#6EE3A9"
 			}
@@ -693,21 +694,15 @@
 			}
 		},	
 		{
-			"scope": "variable.other.object.java, variable.other.definition.java, storage.modifier.import.java",
+			"scope": "variable.other.object.java, storage.modifier.import.java",
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},				
 		{
-			"scope": "meta.function-call.java",
+			"scope": "meta.function-call.java, meta.function-call.python, meta.method-call.java",
 			"settings": {
 				"foreground": "#8BE9FD"
-			}
-		},			
-		{
-			"scope": "meta.method-call.java",
-			"settings": {
-				"foreground": "#60c1d6"
 			}
 		},	
 		{
@@ -717,7 +712,7 @@
 			}
 		},
 		{
-			"scope": "storage.type.function.python, storage.type.class.python, entity.name.type.class.python, storage.type.powershell",
+			"scope": "storage.type.function.python, storage.type.class.python, entity.name.type.class.python, storage.type.powershell, entity.name.type.class.java",
 			"settings": {
 				"foreground": "#D9534F",
 				"fontStyle": "bold"
@@ -798,7 +793,7 @@
 			}
 		},
 		{
-			"scope": "keyword.declaration.scala",
+			"scope": "keyword.declaration.scala, entity.name.class.declaration",
 			"settings": {
 				"foreground": "#D9534F",
 				"fontStyle": "bold"
@@ -813,11 +808,12 @@
 		{
 			"scope": "source.scala entity.name.class, source.scala entity.other.inherited-class.scala",
 			"settings": {
-				"foreground": "#8BE9FD"
+				"foreground": "#8BE9FD",
+				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "variable.other.declaration.scala",
+			"scope": "variable.other.declaration.scala, meta.definition.variable.java",
 			"settings": {
 				"foreground": "#FFB86C"
 			}
