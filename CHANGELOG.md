@@ -1,4 +1,7 @@
 # Change Log
+## [0.5.2] - 2022-03-10
+Housekeeping. Unlicense.
+
 ## [0.5.1] 
 Streamline colors between languages. Again.
 

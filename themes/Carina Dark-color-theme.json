@@ -459,19 +459,7 @@
 			}
 		},			
 		{
-			"scope": "constant.character.escaped, constant.character.escape",
-			"settings": {
-				"foreground": "#FF79C6"
-			}
-		},
-		{
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#FF79C6"
-			}
-		},
-		{
-			"scope": "storage",
+			"scope": "constant.character.escaped, constant.character.escape, keyword, storage",
 			"settings": {
 				"foreground": "#FF79C6"
 			}
@@ -563,7 +551,7 @@
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#FF79C6"
+				"foreground": "#d66ddd"
 			}
 		},
 		{
@@ -823,6 +811,6 @@
 			"settings": {
 				"foreground": "#858585"
 			}
-		}		
+		}	
 	]
 }
