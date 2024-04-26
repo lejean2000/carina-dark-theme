@@ -3,14 +3,14 @@
     "displayName": "Carina Dark Theme",
     "description": "Dracula based dark theme, but more colorful.",
 	"icon": "images/carina.png",
-    "version": "0.5.2",
+    "version": "0.5.3",
 	"publisher": "ivanpavlov",
     "author": "Ivan Pavlov <ivan.pavlov@gmail.com>",
     "repository": {
         "type": "git",
         "url": "https://github.com/lejean2000/carina-dark-theme.git"
     },
-    "license": "MIT-Modern-Variant",
+    "license": "Unlicense",
 	"galleryBanner": {
 		"color": "#232323",
 		"theme": "dark"

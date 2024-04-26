@@ -1,4 +1,8 @@
 # Change Log
+
+## [0.5.3] - 2022-04-20
+Small changes in missing python colors. Now it's even more colorful.
+
 ## [0.5.2] - 2022-03-10
 Housekeeping. Unlicense.
 
@@ -8,7 +12,6 @@ Streamline colors between languages. Again.
 ## [0.5.0] 
 Initial Powershell support. New active editorIndentGuide color. Some sode cleanup.
 
-# Change Log
 ## [0.4.1] 
 Small CSS Fix.
 

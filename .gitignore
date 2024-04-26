@@ -2,3 +2,4 @@
 /.vscodeignore
 *.vsix
 /vsc-extension-quickstart.md
+*.bak
