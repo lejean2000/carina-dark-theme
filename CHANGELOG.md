@@ -1,4 +1,9 @@
 # Change Log
+## [0.7] - 2025-02-25
+All white is not less white. Also fixed the SQL coloring, which was not working well. The parsers are very immature so this is far from perfect.
+
+## [0.6] - 2024-05-31
+Small changes related to SQL coloring, which was missing.
 
 ## [0.5.3] - 2022-04-20
 Small changes in missing python colors. Now it's even more colorful.

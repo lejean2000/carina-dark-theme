@@ -3,11 +3,11 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#202020",
-		"editor.foreground": "#f8f8f2",
+		"editor.foreground": "#f1f1f1",
 		"editor.lineHighlightBackground": "#353535",
 		"editor.selectionBackground": "#44475a",
 		"editorCursor.foreground": "#f8f8f0",
-		"editorIndentGuide.activeBackground": "#777777",
+		"editorIndentGuide.activeBackground1": "#777777",
 		"editorWhitespace.foreground": "#3b3a32",
 		//"activityBar.activeBorder": "#ffffff",
 		//"activityBar.background": "#333333",
@@ -338,7 +338,7 @@
 		//"symbolIcon.typeParameterForeground": "#cccccc",
 		//"symbolIcon.unitForeground": "#cccccc",
 		//"symbolIcon.variableForeground": "#75beff",
-		//"tab.activeBackground": "#202020",
+		//"tab.activeBackground": "#223344",
 		//"tab.activeForeground": "#ffffff",
 		//"tab.activeModifiedBorder": "#3399cc",
 		//"tab.border": "#252526",
@@ -409,6 +409,18 @@
 				"foreground": "#BD93F9"
 			}
 		},
+		{
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#BD93F9"
+			}
+		},
+		{
+			"scope": "support.function.builtin.agg",
+			"settings": {
+				"foreground": "#8BE9FD"
+			}
+		},		
 		{
 			"scope": "constant.character, constant.other",
 			"settings": {
@@ -658,7 +670,7 @@
 			}
 		},		
 		{
-			"scope": "meta.function-call.python",
+			"scope": "meta.function-call.python, support.function.aggregate.sql",
 			"settings": {
 				"foreground": "#8BE9FD"
 			}
@@ -670,7 +682,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.python, meta.method.identifier.java, support.function.builtin.python, entity.name.function.js, entity.name.function.powershell",
+			"scope": "support.function.conversion.sql, support.function.system.sql, support.function.string.sql, entity.name.function.python, meta.method.identifier.java, support.function.builtin.python, entity.name.function.js, entity.name.function.powershell",
 			"settings": {
 				"foreground": "#6EE3A9"
 			}
@@ -713,7 +725,7 @@
 			}
 		},
 		{
-			"scope": "storage.type.function.python, storage.type.class.python, entity.name.type.class.python, storage.type.powershell, entity.name.type.class.java",
+			"scope": "storage.type.function.python, storage.type.class.python, entity.name.type.class.python, storage.type.powershell, entity.name.type.class.java, constant.other.database-name.sql",
 			"settings": {
 				"foreground": "#D9534F",
 				"fontStyle": "bold"
@@ -732,7 +744,7 @@
 			}
 		},		
 		{
-			"scope": "comment.line.number-sign.python, comment.block.css, comment.line.double-slash.scala",
+			"scope": "comment.line.number-sign.python, comment.block.css, comment.line.double-slash.scala, comment.line.double-dash.sql",
 			"settings": {
 				"foreground": "#747474"
 			}
