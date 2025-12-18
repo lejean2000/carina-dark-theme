@@ -1,4 +1,7 @@
 # Change Log
+## [0.8] - 2025-12-18
+Streamline the color definitions. Some css color changes.
+
 ## [0.7] - 2025-02-25
 All white is now less white. Also fixed the SQL coloring, which was not working well. The parsers are very immature so this is far from perfect.
 
